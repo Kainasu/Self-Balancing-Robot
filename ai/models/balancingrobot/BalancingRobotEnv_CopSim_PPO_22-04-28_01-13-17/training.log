@@ -1,0 +1,1393 @@
+os.getcwd() is : /home/arthur/Documents/PFA/free-balancing-robot
+	root directory: </home/arthur/Documents/PFA/free-balancing-robot>
+	working directory is now: </home/arthur/Documents/PFA/free-balancing-robot>
+running: train_model('ai/config/20001_balancingrobot_ppo_copsim.yaml', coppsim_port=20001, training_dir='ai/models/balancingrobot/BalancingRobotEnv_CopSim_PPO_22-04-28_01-13-17')
+ai/config/20001_balancingrobot_ppo_copsim.yaml
+[CopSim] starting an instance of CoppeliaSim...
+[Instance] trying to start <./coppeliaSim.sh -gREMOTEAPISERVERSERVICE_20001_FALSE_TRUE -h -vnone>
+[CoppeliaSimClient]    loading the CoppeliaSim library...
+[CoppeliaSimClient]    done.
+[2022-04-28 01:13:29] [info] asio listen error: asio.system:98 (Address already in use)
+[CopSim] CoppeliaSim instance started, remote API connection OK.
+[CopSim] loading scene from balancing_robot/copsim/Balancing-robot.ttt
+[CopSim] scene failled to load 0 times
+/home/arthur/miniconda3/envs/pyml/lib/python3.6/site-packages/gym/logger.py:34: UserWarning: [33mWARN: Box bound precision lowered by casting to float32[0m
+  warnings.warn(colorize("%s: %s" % ("WARN", msg % args), "yellow"))
+[BalancingRobot-v2] initialized, _max_episode_steps:500
+Using cpu device
+Wrapping the env with a `Monitor` wrapper
+Wrapping the env in a DummyVecEnv.
+BalancingRobot reset - np steps : 0
+Logging to ai/models/balancingrobot/BalancingRobotEnv_CopSim_PPO_22-04-28_01-13-17/PPO_1
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 6
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 6
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 6
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 12
+---------------------------------
+| rollout/           |          |
+|    ep_len_mean     | 11.5     |
+|    ep_rew_mean     | 10.8     |
+| time/              |          |
+|    fps             | 5        |
+|    iterations      | 1        |
+|    time_elapsed    | 183      |
+|    total_timesteps | 1024     |
+---------------------------------
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 6
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 6
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 6
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 7
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 6
+BalancingRobot reset - np steps : 14
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 11.7         |
+|    ep_rew_mean          | 11.2         |
+| time/                   |              |
+|    fps                  | 5            |
+|    iterations           | 2            |
+|    time_elapsed         | 368          |
+|    total_timesteps      | 2048         |
+| train/                  |              |
+|    approx_kl            | 0.0009478993 |
+|    clip_fraction        | 0.00112      |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.43        |
+|    explained_variance   | 0.000537     |
+|    learning_rate        | 0.0003       |
+|    loss                 | 8.29         |
+|    n_updates            | 20           |
+|    policy_gradient_loss | -0.00289     |
+|    std                  | 1.01         |
+|    value_loss           | 26.6         |
+------------------------------------------
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 6
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 15
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 12.7        |
+|    ep_rew_mean          | 12.1        |
+| time/                   |             |
+|    fps                  | 5           |
+|    iterations           | 3           |
+|    time_elapsed         | 546         |
+|    total_timesteps      | 3072        |
+| train/                  |             |
+|    approx_kl            | 0.015721343 |
+|    clip_fraction        | 0.078       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.41       |
+|    explained_variance   | 0.00462     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 5.89        |
+|    n_updates            | 40          |
+|    policy_gradient_loss | -0.0157     |
+|    std                  | 0.978       |
+|    value_loss           | 14.4        |
+-----------------------------------------
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 19
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 14.2        |
+|    ep_rew_mean          | 13.5        |
+| time/                   |             |
+|    fps                  | 5           |
+|    iterations           | 4           |
+|    time_elapsed         | 722         |
+|    total_timesteps      | 4096        |
+| train/                  |             |
+|    approx_kl            | 0.012444436 |
+|    clip_fraction        | 0.101       |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.4        |
+|    explained_variance   | 0.0112      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 8.7         |
+|    n_updates            | 60          |
+|    policy_gradient_loss | -0.0144     |
+|    std                  | 0.985       |
+|    value_loss           | 18.1        |
+-----------------------------------------
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 37
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 47
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 8
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 44
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 16
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 16.5        |
+|    ep_rew_mean          | 15.9        |
+| time/                   |             |
+|    fps                  | 5           |
+|    iterations           | 5           |
+|    time_elapsed         | 889         |
+|    total_timesteps      | 5120        |
+| train/                  |             |
+|    approx_kl            | 0.007337488 |
+|    clip_fraction        | 0.0751      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.4        |
+|    explained_variance   | -0.0108     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 9.76        |
+|    n_updates            | 80          |
+|    policy_gradient_loss | -0.00821    |
+|    std                  | 0.978       |
+|    value_loss           | 20.6        |
+-----------------------------------------
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 33
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 19
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 16.6         |
+|    ep_rew_mean          | 15.9         |
+| time/                   |              |
+|    fps                  | 5            |
+|    iterations           | 6            |
+|    time_elapsed         | 1062         |
+|    total_timesteps      | 6144         |
+| train/                  |              |
+|    approx_kl            | 0.0068590785 |
+|    clip_fraction        | 0.0563       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.4         |
+|    explained_variance   | -0.00177     |
+|    learning_rate        | 0.0003       |
+|    loss                 | 16           |
+|    n_updates            | 100          |
+|    policy_gradient_loss | -0.00814     |
+|    std                  | 0.977        |
+|    value_loss           | 30.7         |
+------------------------------------------
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 34
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 11
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 17
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 17.5        |
+|    ep_rew_mean          | 16.8        |
+| time/                   |             |
+|    fps                  | 5           |
+|    iterations           | 7           |
+|    time_elapsed         | 1230        |
+|    total_timesteps      | 7168        |
+| train/                  |             |
+|    approx_kl            | 0.006980471 |
+|    clip_fraction        | 0.0806      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.39       |
+|    explained_variance   | -0.00263    |
+|    learning_rate        | 0.0003      |
+|    loss                 | 14.5        |
+|    n_updates            | 120         |
+|    policy_gradient_loss | -0.00927    |
+|    std                  | 0.971       |
+|    value_loss           | 27.2        |
+-----------------------------------------
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 42
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 37
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 10
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 25
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 18.5        |
+|    ep_rew_mean          | 17.8        |
+| time/                   |             |
+|    fps                  | 5           |
+|    iterations           | 8           |
+|    time_elapsed         | 1398        |
+|    total_timesteps      | 8192        |
+| train/                  |             |
+|    approx_kl            | 0.005931237 |
+|    clip_fraction        | 0.0592      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.39       |
+|    explained_variance   | 0.00466     |
+|    learning_rate        | 0.0003      |
+|    loss                 | 14.8        |
+|    n_updates            | 140         |
+|    policy_gradient_loss | -0.00746    |
+|    std                  | 0.977       |
+|    value_loss           | 27.2        |
+-----------------------------------------
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 9
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 38
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 39
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 24
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 19.5       |
+|    ep_rew_mean          | 18.6       |
+| time/                   |            |
+|    fps                  | 5          |
+|    iterations           | 9          |
+|    time_elapsed         | 1566       |
+|    total_timesteps      | 9216       |
+| train/                  |            |
+|    approx_kl            | 0.00477914 |
+|    clip_fraction        | 0.0431     |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.4       |
+|    explained_variance   | 0.00959    |
+|    learning_rate        | 0.0003     |
+|    loss                 | 16.5       |
+|    n_updates            | 160        |
+|    policy_gradient_loss | -0.00571   |
+|    std                  | 0.982      |
+|    value_loss           | 30.5       |
+----------------------------------------
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 34
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 40
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 33
+BalancingRobot reset - np steps : 35
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 38
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 42
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 20
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 21.2         |
+|    ep_rew_mean          | 20.3         |
+| time/                   |              |
+|    fps                  | 5            |
+|    iterations           | 10           |
+|    time_elapsed         | 1731         |
+|    total_timesteps      | 10240        |
+| train/                  |              |
+|    approx_kl            | 0.0028326504 |
+|    clip_fraction        | 0.0134       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.39        |
+|    explained_variance   | 0.0214       |
+|    learning_rate        | 0.0003       |
+|    loss                 | 16.6         |
+|    n_updates            | 180          |
+|    policy_gradient_loss | -0.00176     |
+|    std                  | 0.97         |
+|    value_loss           | 32.5         |
+------------------------------------------
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 35
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 32
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 42
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 16
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 21.1         |
+|    ep_rew_mean          | 20.2         |
+| time/                   |              |
+|    fps                  | 5            |
+|    iterations           | 11           |
+|    time_elapsed         | 1900         |
+|    total_timesteps      | 11264        |
+| train/                  |              |
+|    approx_kl            | 0.0025401604 |
+|    clip_fraction        | 0.0297       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.38        |
+|    explained_variance   | -0.0108      |
+|    learning_rate        | 0.0003       |
+|    loss                 | 15.5         |
+|    n_updates            | 200          |
+|    policy_gradient_loss | -0.0032      |
+|    std                  | 0.954        |
+|    value_loss           | 39.4         |
+------------------------------------------
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 51
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 34
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 35
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 34
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 34
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 18
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 21.3         |
+|    ep_rew_mean          | 20.4         |
+| time/                   |              |
+|    fps                  | 5            |
+|    iterations           | 12           |
+|    time_elapsed         | 2061         |
+|    total_timesteps      | 12288        |
+| train/                  |              |
+|    approx_kl            | 0.0069688465 |
+|    clip_fraction        | 0.0584       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.37        |
+|    explained_variance   | 0.0303       |
+|    learning_rate        | 0.0003       |
+|    loss                 | 19.5         |
+|    n_updates            | 220          |
+|    policy_gradient_loss | -0.00771     |
+|    std                  | 0.947        |
+|    value_loss           | 34.7         |
+------------------------------------------
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 32
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 41
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 39
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 15
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 36
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 12
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 22.5         |
+|    ep_rew_mean          | 21.5         |
+| time/                   |              |
+|    fps                  | 5            |
+|    iterations           | 13           |
+|    time_elapsed         | 2225         |
+|    total_timesteps      | 13312        |
+| train/                  |              |
+|    approx_kl            | 0.0038860794 |
+|    clip_fraction        | 0.037        |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.36        |
+|    explained_variance   | -0.00868     |
+|    learning_rate        | 0.0003       |
+|    loss                 | 18.7         |
+|    n_updates            | 240          |
+|    policy_gradient_loss | -0.00564     |
+|    std                  | 0.94         |
+|    value_loss           | 40.7         |
+------------------------------------------
+BalancingRobot reset - np steps : 37
+BalancingRobot reset - np steps : 12
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 42
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 14
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 32
+BalancingRobot reset - np steps : 13
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 16
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 43
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 36
+BalancingRobot reset - np steps : 30
+-----------------------------------------
+| rollout/                |             |
+|    ep_len_mean          | 23          |
+|    ep_rew_mean          | 21.8        |
+| time/                   |             |
+|    fps                  | 6           |
+|    iterations           | 14          |
+|    time_elapsed         | 2387        |
+|    total_timesteps      | 14336       |
+| train/                  |             |
+|    approx_kl            | 0.006283068 |
+|    clip_fraction        | 0.0364      |
+|    clip_range           | 0.2         |
+|    entropy_loss         | -1.35       |
+|    explained_variance   | 0.0398      |
+|    learning_rate        | 0.0003      |
+|    loss                 | 24.7        |
+|    n_updates            | 260         |
+|    policy_gradient_loss | -0.00343    |
+|    std                  | 0.927       |
+|    value_loss           | 40          |
+-----------------------------------------
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 38
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 35
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 36
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 49
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 34
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 36
+BalancingRobot reset - np steps : 37
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 17
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 23.7         |
+|    ep_rew_mean          | 22.5         |
+| time/                   |              |
+|    fps                  | 6            |
+|    iterations           | 15           |
+|    time_elapsed         | 2548         |
+|    total_timesteps      | 15360        |
+| train/                  |              |
+|    approx_kl            | 0.0067066913 |
+|    clip_fraction        | 0.0527       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.34        |
+|    explained_variance   | 0.122        |
+|    learning_rate        | 0.0003       |
+|    loss                 | 17.4         |
+|    n_updates            | 280          |
+|    policy_gradient_loss | -0.00602     |
+|    std                  | 0.922        |
+|    value_loss           | 35.8         |
+------------------------------------------
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 36
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 33
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 42
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 50
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 39
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 42
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 38
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 34
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 19
+----------------------------------------
+| rollout/                |            |
+|    ep_len_mean          | 25.2       |
+|    ep_rew_mean          | 24.1       |
+| time/                   |            |
+|    fps                  | 6          |
+|    iterations           | 16         |
+|    time_elapsed         | 2707       |
+|    total_timesteps      | 16384      |
+| train/                  |            |
+|    approx_kl            | 0.00328012 |
+|    clip_fraction        | 0.0239     |
+|    clip_range           | 0.2        |
+|    entropy_loss         | -1.34      |
+|    explained_variance   | 0.184      |
+|    learning_rate        | 0.0003     |
+|    loss                 | 18.4       |
+|    n_updates            | 300        |
+|    policy_gradient_loss | -0.00303   |
+|    std                  | 0.925      |
+|    value_loss           | 36.6       |
+----------------------------------------
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 36
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 70
+BalancingRobot reset - np steps : 36
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 41
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 37
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 25
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 30
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 63
+------------------------------------------
+| rollout/                |              |
+|    ep_len_mean          | 26.6         |
+|    ep_rew_mean          | 25.4         |
+| time/                   |              |
+|    fps                  | 6            |
+|    iterations           | 17           |
+|    time_elapsed         | 2866         |
+|    total_timesteps      | 17408        |
+| train/                  |              |
+|    approx_kl            | 0.0032189016 |
+|    clip_fraction        | 0.0293       |
+|    clip_range           | 0.2          |
+|    entropy_loss         | -1.34        |
+|    explained_variance   | 0.31         |
+|    learning_rate        | 0.0003       |
+|    loss                 | 17.6         |
+|    n_updates            | 320          |
+|    policy_gradient_loss | -0.00339     |
+|    std                  | 0.922        |
+|    value_loss           | 35           |
+------------------------------------------
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 35
+BalancingRobot reset - np steps : 46
+BalancingRobot reset - np steps : 42
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 22
+BalancingRobot reset - np steps : 31
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 38
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 28
+BalancingRobot reset - np steps : 20
+BalancingRobot reset - np steps : 32
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 18
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 19
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 17
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 23
+BalancingRobot reset - np steps : 21
+BalancingRobot reset - np steps : 39
+BalancingRobot reset - np steps : 26
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 24
+BalancingRobot reset - np steps : 27
+BalancingRobot reset - np steps : 29
+BalancingRobot reset - np steps : 19
+Traceback (most recent call last):
+  File "ai/src/run/train_model_copsim.py", line 184, in <module>
+    train_model(config_path, copsim_port=args.port, training_dir=traindir)
+  File "ai/src/run/train_model_copsim.py", line 133, in train_model
+    callback=checkpoint_callback)
+  File "/home/arthur/miniconda3/envs/pyml/lib/python3.6/site-packages/stable_baselines3/ppo/ppo.py", line 308, in learn
+    reset_num_timesteps=reset_num_timesteps,
+  File "/home/arthur/miniconda3/envs/pyml/lib/python3.6/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 237, in learn
+    continue_training = self.collect_rollouts(self.env, callback, self.rollout_buffer, n_rollout_steps=self.n_steps)
+  File "/home/arthur/miniconda3/envs/pyml/lib/python3.6/site-packages/stable_baselines3/common/on_policy_algorithm.py", line 178, in collect_rollouts
+    new_obs, rewards, dones, infos = env.step(clipped_actions)
+  File "/home/arthur/miniconda3/envs/pyml/lib/python3.6/site-packages/stable_baselines3/common/vec_env/base_vec_env.py", line 162, in step
+    return self.step_wait()
+  File "/home/arthur/miniconda3/envs/pyml/lib/python3.6/site-packages/stable_baselines3/common/vec_env/dummy_vec_env.py", line 49, in step_wait
+    obs = self.envs[env_idx].reset()
+  File "/home/arthur/miniconda3/envs/pyml/lib/python3.6/site-packages/stable_baselines3/common/monitor.py", line 79, in reset
+    return self.env.reset(**kwargs)
+  File "/home/arthur/Documents/PFA/free-balancing-robot/balancing_robot/copsim/BalancingRobotEnv_CopSim.py", line 257, in reset
+    self.imposeState(self.state)
+  File "/home/arthur/Documents/PFA/free-balancing-robot/balancing_robot/copsim/BalancingRobotEnv_CopSim.py", line 174, in imposeState
+    self.joint_r.set_joint_target_velocity(theta_dot)
+  File "/home/arthur/Documents/PFA/free-balancing-robot/coppeliasim_api/env/CopSim.py", line 111, in set_joint_target_velocity
+    blocking))
+  File "/home/arthur/Documents/PFA/free-balancing-robot/coppeliasim_api/env/CopSim.py", line 47, in check_ret
+    ') not OK, API call failed. Check the parameters!')
+RuntimeError: retcode(3) not OK, API call failed. Check the parameters!
+The X11 connection broke (error 1). Did the X11 server die?
+QMutex: destroying locked mutex

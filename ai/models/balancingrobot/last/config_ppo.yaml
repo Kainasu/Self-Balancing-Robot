@@ -1,0 +1,22 @@
+env:
+  environment : 'BalancingRobotEnv_CopSim'
+  scene : 'balancing_robot/copsim/Balancing-robot.ttt'
+  cfg_env : 'ai/config/balancingrobot_copsim/balancingrobot_copsim.yaml'
+train:
+  label: "PPO_BalancingRobot_CopSim"
+  output_path: "ai/models/"
+  output_model_path: "ai/models/balancingrobot"
+  agent_type : 'PPO'
+  policy : 'MlpPolicy'
+  total_timesteps : 100000
+  save_freq: 10000
+  n_steps: 1024
+  n_epochs: 20
+  batch_size: 128
+  seed: 1234
+  headless : True
+eval:
+  total_timesteps: 1000
+  headless : False
+  deterministic: False
+  model_name: "model.zip"
